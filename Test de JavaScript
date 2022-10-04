@@ -1,0 +1,53 @@
+1️⃣ Responde las siguientes preguntas en la sección de comentarios:
+-¿Qué es una variable y para qué sirve?
+Una variable es un espacio en  la memoria que sirve para guardar un tipo de dato que se usara mas 
+
+-¿Cuál es la diferencia entre declarar e inicializar una variable?
+Cuando se daclara se le dice  a la cosola que se esta creando una variable con su nombre y cuando se incializa se le da un valor a la varible.
+
+-¿Cuál es la diferencia entre sumar números y concatenar strings?
+Sumando numeros hacemos una operacion matematica y cuando concatenamos strings unimos distintas variables de tipo texto para formar una oracion.
+
+-¿Cuál operador me permite sumar o concatenar?
+El operador que nos permite sumar o concatenar es el signo +.
+
+2️⃣ Determina el nombre y tipo de dato para almacenar en variables la siguiente información:
+Nombre: string
+Apellido: string
+Nombre de usuario en Platzi: string
+Edad: number
+Correo electrónico: string
+Mayor de edad: booleano
+Dinero ahorrado: number
+Deudas: number
+
+3️⃣ Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios.
+var nombre = "Christian";
+var apellido = "Tasch";
+var usurioPlatzi = "chris02";
+var edad = 20;
+var email = "christianf1f2@gmail.com";
+var mayorEdad = true;
+var dineroAhorrado = 150000;
+var deudas = 50000;
+
+Funciones
+1️⃣ Responde las siguientes preguntas en la sección de comentarios:
+-¿Qué es una función?
+Una funcion es una variable que contiene una serie se acciones a ejecutar.
+
+-¿Cuándo me sirve usar una función en mi código?
+Me sirve cuando quiero ejecutar acciones en mi pagina.
+
+-¿Cuál es la diferencia entre parámetros y argumentos de una función?
+Los parametros son los datos que espera recibir la funcion y los argumentos son los valores de esos datos
+
+
+
+
+
+
+
+
+
+
