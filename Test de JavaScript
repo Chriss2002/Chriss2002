@@ -1,3 +1,4 @@
+Variables y operaciones
 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 -¿Qué es una variable y para qué sirve?
 Una variable es un espacio en  la memoria que sirve para guardar un tipo de dato que se usara mas 
@@ -17,7 +18,7 @@ Apellido: string
 Nombre de usuario en Platzi: string
 Edad: number
 Correo electrónico: string
-Mayor de edad: booleano
+Mayor de edad: boolean
 Dinero ahorrado: number
 Deudas: number
 
@@ -31,6 +32,22 @@ var mayorEdad = true;
 var dineroAhorrado = 150000;
 var deudas = 50000;
 
+4️⃣ Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior:
+-Nombre completo (nombre y apellido)
+function NombreCompleto(){
+   console.log(nombre + " " + apellido);
+};
+NombreCompleto();
+
+-Dinero real (dinero ahorrado menos deudas)
+function DineroReal(){
+   var totalDinero = dineroAhorrado - deudas;
+   console.log(totalDinero);
+};
+DineroReal();
+
+
+
 Funciones
 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 -¿Qué es una función?
@@ -41,6 +58,37 @@ Me sirve cuando quiero ejecutar acciones en mi pagina.
 
 -¿Cuál es la diferencia entre parámetros y argumentos de una función?
 Los parametros son los datos que espera recibir la funcion y los argumentos son los valores de esos datos
+
+2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
+function myName(name, lastname, nickname){
+    const completeName = name + " " +lastname;
+    console.log(`Mi nombre es ${completeName}, pero prefiero que me digas ${nickname}.`)
+}
+myName("Christian Javier", "Tasch", "chris02")
+
+
+
+Condicionales
+-¿Qué es un condicional?
+Una condicional valida si un caso es verdadero o falso.
+
+-¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?
+En JavaScript extiten dos condicionales que son el if y el swith.
+El if pregunta si se cumple una condicion y si lo hace ejecuta una funcion, en caso que no lo sea puede buscar que se cumpla otra condicion con el else if cuantas
+cuantas veces haga falta y en caso que ninguna se condicion se cumpla se ejecuta el else.
+El swith evalua todos los casos(case) y ejecuta el cual cumple la condicion.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
