@@ -78,6 +78,25 @@ El if pregunta si se cumple una condicion y si lo hace ejecuta una funcion, en c
 cuantas veces haga falta y en caso que ninguna se condicion se cumpla se ejecuta el else.
 El swith evalua todos los casos(case) y ejecuta el cual cumple la condicion.
 
+-¿Puedo combinar funciones y condicionales?
+Si, dentro de las funciones se pueden encapsular todo tipo de codigo incluyendo condicionales.
+
+
+
+Ciclos
+-¿Qué es un ciclo?
+Un ciclo ejecuta una funcion mientras se cumpla una condicion.
+
+-¿Qué tipos de ciclos existen en JavaScript?
+El FOR y FOR EACH.
+
+-¿Qué es un ciclo infinito y por qué es un problema?
+Un ciclo infinito ejecuta una funcion un numero infinito de veces porque la condicion para que se ejectute siempre va a ser verdadera.
+El problema es que la pagina siempre va a estar cargando para ejecutar el ciclo un infinitamente.
+
+-¿Puedo mezclar ciclos y condicionales?
+Si, dentro de los ciclos se pueden encapsular condicionales.
+
 
 
 
