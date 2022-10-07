@@ -84,6 +84,7 @@ Si, dentro de las funciones se pueden encapsular todo tipo de codigo incluyendo 
 
 
 Ciclos
+1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 -¿Qué es un ciclo?
 Un ciclo ejecuta una funcion mientras se cumpla una condicion.
 
@@ -97,8 +98,20 @@ El problema es que la pagina siempre va a estar cargando para ejecutar el ciclo 
 -¿Puedo mezclar ciclos y condicionales?
 Si, dentro de los ciclos se pueden encapsular condicionales.
 
+2️⃣ Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
+
+var i = 0;
+while(i < 5){
+    i++;
+    console.log(`El valor de i es: ` + i);
+};
 
 
+var i = 10;
+while(i > 0){
+    console.log(`El valor de i es: ` + i);
+    i-- ;
+};
 
 
 
