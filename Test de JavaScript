@@ -121,9 +121,44 @@ Listas
 Es un espacio en memoria que sirve para guardar varios datos y tipos de datos para usar mas adelante.
 
 -¿Qué es un objeto?
-Es una entidad idependiente con caracteristicas propias.
+Es una entidad idependiente con caracteristicas propias. 
 
 
+2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
+
+function mostrarPrimerElemento(array){
+    console.log(array[0])
+}
+
+mostrarPrimerElemento(["Christian", "Tasch", 20]);
+
+
+3️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
+
+function mostrarTodosLosElementos(arr){
+    for(var i = 0; i < arr.length; i++){
+        console.log(arr[i])
+    }
+}
+mostrarTodosLosElementos(["Jose","Maria","Alfredo"])
+
+
+4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
+
+let celular1 = {
+    modelo: "k61",
+    precio: "220",
+    pantalla: "6.5",
+    camara: "48px"
+}
+
+function mostrarObjetosUnoPorUno(){
+    let arr = Object.values(celular1);
+    for(var i = 0; i < arr.length; i++){
+        console.log(arr[i])
+    }
+}
+ mostrarObjetosUnoPorUno();
 
 
 
