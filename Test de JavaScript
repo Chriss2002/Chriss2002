@@ -81,6 +81,21 @@ El swith evalua todos los casos(case) y ejecuta el cual cumple la condicion.
 -¿Puedo combinar funciones y condicionales?
 Si, dentro de las funciones se pueden encapsular todo tipo de codigo incluyendo condicionales.
 
+3️⃣ Replica el comportamiento de tu condicional anterior con if, else y else if, pero ahora solo con if (sin else ni else if).
+💡 Bonus: si ya eres una experta o experto en el lenguaje, te desafío a comentar cómo replicar este comportamiento con arrays u objetos y un solo condicional. 😏
+let suscripciones = {
+    free: "Solo puedes tomar los cursos gratis",
+    basic: "Puedes tomar casi todos los cursos de Platzi durante un mes",
+    expert: "Puedes tomar casi todos los cursos de Platzi durante un año",
+    expertDou: "Tu y alguien mas pueden tomar TODOS los cursos de Platzi durante una año"
+}
+
+function tipoDeSuscripcion(suscripcion){
+    if(suscripciones[suscripcion]){
+        console.log(suscripciones[suscripcion])
+    }
+}
+tipoDeSuscripcion()
 
 
 Ciclos
@@ -123,6 +138,11 @@ Es un espacio en memoria que sirve para guardar varios datos y tipos de datos pa
 -¿Qué es un objeto?
 Es una entidad idependiente con caracteristicas propias. 
 
+-¿Cuándo es mejor usar objetos o arrays?
+Objetos cuando los elementos tienen una o varias caracteristicas propias y array cuando los elementos necesitan un tipo de dato.
+
+-¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
+Si, un elemento del array puede ser un objeto y un array puede estar dentro de un objeto.
 
 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
 
@@ -152,13 +172,13 @@ let celular1 = {
     camara: "48px"
 }
 
-function mostrarObjetosUnoPorUno(){
+function mostrarObjetosUnoPorUno(celular1){
     let arr = Object.values(celular1);
     for(var i = 0; i < arr.length; i++){
         console.log(arr[i])
     }
 }
- mostrarObjetosUnoPorUno();
+ mostrarObjetosUnoPorUno(celular1);
 
 
 
